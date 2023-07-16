@@ -40,7 +40,7 @@
 }
 
 .about__card:hover {
-    background: transparent;
+    /* background: transparent; */
     border-color: var(--color-primary-variant);
     cursor: default;
 }

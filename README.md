@@ -1,63 +1,36 @@
-# Personal-Portfolio
-> This is personal portfolio website.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![Portfolio](https://raw.github.com/Meri-MG/portfolio---react/master/src/assets/port.png)
+## Getting Started
 
-## Built With
+First, run the development server:
 
-- React
-- CSS
-- VS code
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Live Demo
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Live Demo](https://meri-mg-portfolio.netlify.app/)
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-# Getting Started
-## Prerequisites:
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
-- Create an account on github
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Install gitbash or use git on the command line.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- Use an IDE of your preference such as VScode.
+## Deploy on Vercel
 
-## Steps to follow:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- Choose a folder in your local machine where you want this repository to be copied
-
-- Clone this [repository](https://github.com/Meri-MG/portfolio---react) to your local machine 
-- ```
-  git clone git@github.com:Meri-MG/portfolio---react.git
-  ```
-
-- Navigate to `cd portfolio---react`  directory.
-
-- To install all the app dependencies on the command line run
-- ```
-  npm install
-  ``` 
-- To run app in the development mode run 
-- ```
-  npm start
-  ```
-
-
-## Author
-
-:woman: **Meri Gogichashvili**
-
-- [GitHub](https://github.com/Meri-MG)
-- [LinkedIn](https://www.linkedin.com/in/meri-gogichashvili/)
-
-## 🤝 Contributing
-- Contributions, issues, and feature requests are welcome!
-- Feel free to check the [issues page](https://github.com/Meri-MG/portfolio---react/issues).
-
-# Show your support
-Give a ⭐ if you like this project!
-
-# Acknowledgments
-Thanks to [EGATOR](https://www.youtube.com/watch?v=G-Cr00UYokU&list=WL&index=55&t=1845s) tutorial!
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

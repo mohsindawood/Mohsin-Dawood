@@ -1,41 +1,42 @@
 {
-  "name": "portfolio---react",
+  "name": "md-mohsin-dawood",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@emailjs/browser": "^3.6.2",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
-    "react-scripts": "5.0.1",
-    "swiper": "^8.2.4",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prod": "next build && next start"
+
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@iconify/icons-ant-design": "^1.2.7",
+    "@iconify/icons-eva": "^1.2.6",
+    "@iconify/icons-ic": "^1.2.13",
+    "@iconify/icons-uil": "^1.2.3",
+    "@iconify/react": "^4.1.1",
+    "@mui/icons-material": "^5.15.12",
+    "@mui/material": "^5.15.12",
+    "change-case": "^5.4.3",
+    "framer-motion": "^11.0.8",
+    "lodash": "^4.17.21",
+    "next": "14.1.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.5",
+    "react-icons": "^5.3.0",
+    "react-intersection-observer": "^9.8.1",
+    "react-scroll": "^1.9.0",
+    "react-slick": "^0.30.2",
+    "simplebar-react": "^3.2.4",
+    "slick-carousel": "^1.8.1",
+    "typewriter-effect": "^2.21.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.2"
   }
 }
